@@ -1,0 +1,39 @@
+body {
+    background: #0A142F;
+}
+
+
+.cards {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+}
+
+a {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 768px){
+    body {
+        display: flex;
+        
+    }
+    
+    .cards_section {
+        display: flex;
+        width: 90%;
+        gap:10px;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cards {
+        width: 60px;
+        height: 60px;
+        border-radius: 10%;
+    }
+}
